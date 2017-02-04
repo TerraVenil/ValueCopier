@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>ValueCopier.TerraVenil</id>
+    <version>1.0.0</version>
+    <title>ValueCopier</title>
+    <authors>Alexey Borodenko</authors>
+    <owners>Alexey Borodenko</owners>
+    <projectUrl>https://github.com/TerraVenil/ValueCopier</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Fast copy object properties.</description>
+    <releaseNotes>First release.</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>reflection</tags>
+	<dependencies>
+        <dependency id="FastMember" version="1.1.0" />
+    </dependencies>
+  </metadata>
+  <files>
+	 <file src="bin\Release\netstandard1.6\ValueCopier.dll" target="lib\netstandard1.6\ValueCopier.dll" />
+ </files>
+</package>
